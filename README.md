@@ -85,16 +85,6 @@ O modelo **SVM** alcançou uma acurácia superior (**88.5%**), demonstrando ser 
 
 ## ⚠️ Limitações e Dificuldades
 
-### Limitações do Projeto e da Arquitetura
-
-- **Representação de Features Simplificada:** A diferença absoluta entre MFCCs é uma abordagem simplificada que perde informações temporais.
-- **Sensibilidade dos Algoritmos:**  
-  - O k-NN depende fortemente da escolha de `k`.  
-  - O SVM depende do `kernel` e dos hiperparâmetros.  
-- **Abordagem Clássica vs. Moderna:** Técnicas mais recentes como **CNNs** em espectrogramas ou **Transformers** podem gerar melhores resultados.
-
-### Dificuldades no Processo
-
 - **Dataset Desbalanceado: A predominância de locutores masculinos e jovens pode ter criado um viés no modelo.
 - **Features Simplificadas: A "diferença absoluta" dos MFCCs perde detalhes temporais da voz.
 - **Abordagem Clássica: Modelos modernos de Deep Learning costumam ter performance superior.
